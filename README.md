@@ -23,7 +23,7 @@ In this tutorial we will build fullstack serverless app that has REST API and Re
   * **Index doc for the website:** ``index.html`` 
   * **Error doc for the website:**  ``index.html``
 * `amplify publish` 
-  * http://helloreact-20201222120745-hostingbucket-dev.s3-website-eu-west-1.amazonaws.com/
+  * http://xxxx.s3-website-eu-west-1.amazonaws.com/
 
 #### Issue Patch
 
@@ -68,7 +68,7 @@ def handler(event, context):
 
 Then, we are ready to push our backend api to `AWS Lambda` and `API Gateway` via `amplify push --y ` command.
 
-* API gateway endpoint: https://pk855su8od.execute-api.eu-west-1.amazonaws.com/dev
+* API gateway endpoint: https://xxxx.execute-api.eu-west-1.amazonaws.com/dev
 * You can double check properties from `aws-export.js` file.
 
 ```javascript
@@ -79,7 +79,7 @@ const awsmobile = {
     "aws_cloud_logic_custom": [
         {
             "name": "mypythonapi",
-            "endpoint": "https://pk855su8od.execute-api.eu-west-1.amazonaws.com/dev",
+            "endpoint": "https://xxxxx.execute-api.eu-west-1.amazonaws.com/dev",
             "region": "eu-west-1"
         }
     ]
