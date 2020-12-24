@@ -16,3 +16,9 @@ amplify-build-config.json
 amplify-gradle-config.json
 amplifytools.xcconfig
 .secret-*
+
+# Ignore .c9 .vscode
+.vscode
+.vscode*
+.c9*
+.c9
